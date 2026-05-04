@@ -86,7 +86,7 @@ body {
   background-color: #fffbef;
   padding: 0;
 
-  height: 1000px;
+  height: 1500px;
 }
 
 .container2 div1 {
@@ -107,7 +107,24 @@ body {
 }
 
 .container2 div2 {
-  background-color: #bed3ff;
+  background-color: none;
+  margin: 10px;
+  padding: 20px;
+
+  padding-top: 70px;
+
+  font-size: 50px;
+  font-family: "Protest Riot", sans-serif;
+
+  border-radius: 25px;
+  color: #233864;
+
+  max-width: 500px;
+
+}
+
+.container2 div2sub {
+  background-color: none;
   margin: 10px;
   padding: 20px;
 
@@ -118,7 +135,6 @@ body {
   color: #233864;
 
   max-width: 500px;
-
 }
 
 .container3 {
@@ -148,13 +164,13 @@ body {
 
 div-left {
   position: absolute;
-  top: 250px;
+  top: 800px;
 }
 
 div-right {
   position: absolute;
   right: 0px;
-  top: 250px;
+  top: 800px;
 }
 
 div-portrait {
@@ -215,6 +231,49 @@ span {
   cursor: pointer;
 }
 
+.button2 {
+  background-color: #FFCB69;
+  padding: 20px;
+  border-radius: 25px;
+  width: 200px;
+  height: 100px;
+  border: none;
+  box-shadow: 2.5px 5px #FBA708;
+
+  font-family: "Protest Riot", sans-serif;
+  font-size: 35px;
+  color: #233864;
+}
+
+.button2:hover {
+  background-color: #233864;
+  color: #FFCB69;
+  box-shadow: 2.5px 5px #000000;
+
+  cursor: pointer;
+}
+
+.button-nav {
+  background-color: #FFCB69;
+  padding: 20px;
+  border-radius: 25px;
+  width: 150px;
+  border: none;
+  box-shadow: 2.5px 5px #FBA708;
+
+  font-family: "Google Sans Flex", sans-serif;;
+  font-size: 16px;
+  color: #233864;
+}
+
+.button-nav:hover {
+  background-color: #233864;
+  color: #FFCB69;
+  box-shadow: 2.5px 5px #000000;
+
+  cursor: pointer;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -227,17 +286,101 @@ a:visited {
   text-decoration: none;
 }
 
+div-footer-text1 {
+  font-family: "Protest Riot", sans-serif;
+  font-size: 40px;
+  color: #FFCB69;
 
+  position: absolute;
+  left: 400px;
+  padding-top: 40px;
+}
 
+div-footer-text2 {
+  font-family: "Protest Riot", sans-serif;
+  font-size: 30px;
+  color: #fffbef;
 
+  position: absolute;
+  left: 400px;
+  padding-top: 100px;
+}
 
+div-footer-socials {
+  position: absolute;
+  left: 1200px;
+  padding-top: 30px;
+}
 
+p2 {
+  font-family: "Protest Riot", sans-serif;
+  font-size: 30px;
+  color: #233864;
+}
 
+.book {
+  position: absolute;
+  top: 550px;
+  left: 400px;
+}
 
+.button3 {
+  background-color: #FFCB69;
+  padding: 20px;
+  border-radius: 25px;
+  width: 160px;
 
+  border: none;
+  box-shadow: 2.5px 5px #FBA708;
 
+  font-family: "Google Sans Flex", sans-serif;;
+  font-size: 16px;
+  color: #233864;
 
+  position: absolute;
+  top: 930px;
+  left: 880px;
+}
 
+.button3:hover {
+  background-color: #233864;
+  color: #FFCB69;
+  box-shadow: 2.5px 5px #000000;
+
+  cursor: pointer;
+}
+
+.blog {
+  position: absolute;
+  top: 600px;
+  left: 100px;
+}
+
+.button4 {
+  background-color: #FFCB69;
+  padding: 20px;
+  border-radius: 25px;
+  width: 160px;
+
+  border: none;
+  box-shadow: 2.5px 5px #FBA708;
+
+  font-family: "Google Sans Flex", sans-serif;;
+  font-size: 16px;
+  color: #233864;
+
+  position: absolute;
+  top: 1000px;
+  left: 790px;
+}
+
+.button4:hover {
+  background-color: #233864;
+  color: #FFCB69;
+  box-shadow: 2.5px 5px #000000;
+
+  cursor: pointer;
+}
 
 
 
